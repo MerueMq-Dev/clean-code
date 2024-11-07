@@ -22,4 +22,4 @@ IsSubset - IsSubsetOf - Проверяет, является ли текущее
 
 InsertAfter - InsertNodeAfter - Метод вставляет новый узел после указанного узла в связном списке.
 
-AddInTail - AddNodeInTail - Метод вставляет новый узел в связного списка.
+AddInTail - AddNodeInTail - Метод вставляет новый узел в конец связного списка.
