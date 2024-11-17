@@ -55,7 +55,7 @@ public int ComputeFirstHash(string str1)
 public int ComputeSecondHash(string str1)
 {
     var hash = 0;
-    var randomValue = 223;
+    var randomValue = 223;  
     for (int i = 0; i < str1.Length; i++)
     {
         hash = (hash * randomValue + str1[i]) % filter_len;
@@ -71,3 +71,7 @@ var isBetweenNodes = resultOfCurrentNodeCompare >= 0 && resultOfNextNodeCompare 
 // Flag indicating that an element can be inserted at the current position.
 var isInsertablePosition = resultOfCurrentNodeCompare <= 0 && resultOfNextNodeCompare >= 0 &&
                            currentNode.next != null;
+
+
+3.2
+// До этого момента я почти не делал комментариев.
